@@ -1,0 +1,8 @@
+services:
+    sheer.nowhitepages.listener:
+        class: sheer\nowhitepages\event\listener
+        arguments:
+            - %core.root_path%
+            - %core.php_ext%
+        tags:
+            - { name: event.listener }
