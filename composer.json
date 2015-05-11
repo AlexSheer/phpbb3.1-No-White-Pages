@@ -6,13 +6,17 @@
     "version": "1.0.0",
     "time": "2015-05-08",
     "license": "GPL-2.0",
-    "authors": [
-        {
-            "name": "Sheer",
+	"authors": [
+		{
+			"name": "Sheer",
+            "homepage": "http://www.phpbbguru.net",
+            "role": "Developer""
+		},
+		{
+            "name": "c61",
             "homepage": "http://www.phpbbguru.net",
             "role": "Developer"
-        }
-    ],
+		}],
     "require": {
         "php": ">=5.3.3"
     },
